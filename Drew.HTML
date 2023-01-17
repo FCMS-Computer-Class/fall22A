@@ -1,0 +1,103 @@
+<html>
+    <head>
+    
+
+    
+        <title>My Webpage</title>
+        <style>
+        
+        body {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to top right, grey, black, white);
+}
+        </style>
+        
+    </head>
+    <body>
+        <a href="https://sites.google.com/foothillsschool.net/computerclassa/home?pli=1">Back to Class Website</a>
+    <img src="https://live.staticflickr.com/5348/8955845926_7680a3e037_b.jpg" width="100">
+        <h1 style="color:green;"> Look At The SNOWMAN!!!</h1>
+             
+        <p style="color:red;"> I created this page in my computer class and I decided to make a snowman out of rectangles that you can see below!</p>
+        <canvas id=myCanvas width=300 height=300 style="background-color: blue">  </canvas>
+        <script>
+        var ctx = myCanvas.getContext("2d");
+        
+        /*SNOWMAN BODY*/
+        
+        ctx.fillStyle= "white";
+        
+        /*BODY#2*/
+        
+        ctx.fillRect(110, 245, 80, 40);
+        ctx.fillRect(120, 235, 60, 60);
+        ctx.fillRect(130, 225, 40, 80);
+        
+        /*BODY#1*/
+        
+        ctx.fillRect(115, 195, 70, 30);
+        ctx.fillRect(125, 185, 50, 50);
+        ctx.fillRect(135, 175, 30, 70);
+        
+        /*HEAD*/
+        
+        ctx.fillRect(120, 155, 60, 20);
+        ctx.fillRect(130, 145, 40, 40);
+        ctx.fillRect(140, 135, 20, 60);
+        
+        /*SCARF*/
+        
+        ctx.fillStyle= "red";
+        ctx.fillRect(160, 185, 10, 5);
+        ctx.fillRect(160, 195, 10, 5);
+        ctx.fillRect(160, 205, 10, 5);
+        ctx.fillRect(130, 175, 5, 10);
+        ctx.fillRect(140, 177, 5, 10);
+        ctx.fillRect(150, 178, 5, 10);
+        ctx.fillRect(160, 176, 5, 10);
+        
+        ctx.fillStyle= "green";
+        ctx.fillRect(160, 190, 10, 5);
+        ctx.fillRect(160, 200, 10, 5);
+        ctx.fillRect(135, 176, 5, 10);
+        ctx.fillRect(145, 178, 5, 10);
+        ctx.fillRect(155, 177, 5, 10);
+        ctx.fillRect(165, 175, 5, 10);
+        
+        /*EYES*/
+        
+        ctx.fillStyle= "white";
+        ctx.strokeStyle= "black";
+        ctx.lineWidth= 2;
+
+        /*LEFT EYE*/
+
+        ctx.fillRect(135, 155, 8, 12);
+        ctx.strokeRect(135, 155, 8, 12);
+        ctx.fillStyle= "black";
+        ctx.fillRect(135, 160, 4, 4);
+        
+        /*RIGHT EYE*/
+        
+        ctx.fillStyle= "white";
+        ctx.fillRect(157, 155, 8, 12);
+        ctx.strokeRect(157, 155, 8, 12);
+        ctx.fillStyle= "black";
+        ctx.fillRect(157, 160, 4, 4);
+        
+        /*WEIRED THING IN THE TOP LEFT CORNER*/
+        
+        ctx.lineWidth= 5;
+        ctx.strokeStyle= "red";
+        ctx.strokeRect(50, 50, 30, 30);
+        ctx.strokeStyle= "yellow";
+        ctx.strokeRect(55, 55, 30, 30);  
+        ctx.strokeStyle= "green";
+        ctx.strokeRect(60, 60, 30, 30);
+        </script>
+        <br>
+        <iframe src="https://scratch.mit.edu/projects/752434124/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        <iframe src="https://scratch.mit.edu/projects/763616286/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    </body>
+</html>
